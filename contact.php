@@ -189,9 +189,9 @@
     <div class="header">
         <div class="header-right">
             <a href="idex.html">HOME</a>
-            <a href="services.php">SERVICES</a>
-            <a href="Project.php">PROJECTS</a>
-            <a href="contact.php" class="active">CONTACTS</a>
+            <a href="services.html">SERVICES</a>
+            <a href="Project.html">PROJECTS</a>
+            <a href="contact.html" class="active">CONTACTS</a>
         </div>
     </div>
     <div class="details">   
