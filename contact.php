@@ -188,7 +188,7 @@
     <!--Navbar items -->
     <div class="header">
         <div class="header-right">
-            <a href="home.php">HOME</a>
+            <a href="idex.html">HOME</a>
             <a href="services.php">SERVICES</a>
             <a href="Project.php">PROJECTS</a>
             <a href="contact.php" class="active">CONTACTS</a>

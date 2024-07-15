@@ -256,7 +256,7 @@ h2 {
     <!--Navbar items -->
     <div class="header">
     <div class="header-right"> 
-<a href="home.php">HOME</a> 
+<a href="index.html">HOME</a> 
 <a href="services.php"class="active">SERVICES</a>
 <a href="Project.php">PROJECTS</a>
 <a href="contact.php">CONTACTS</a>
