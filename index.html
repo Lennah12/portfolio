@@ -6,7 +6,7 @@
     <title>My Website</title>
     <style>
         body {
-            background-image:url("lens11.jpg");
+            background-image:url(lens111.jpg);
             background-position: center;
             background-size: cover;
             margin: 0;
@@ -210,10 +210,18 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background:rgba(255, 255, 255, 0.8) ;
+    background: rgba(239, 235, 237, 0.9);
     margin: 20px;
     border-radius: 10px;
+    }
+
+.about-container:hover
+{
+    transform: scale(1.05);
+    /* Adjust other styles as needed */
+    cursor: pointer; /* Optional: Change cursor on hover */
 }
+
 .details {
     flex: 1;
     font-size: 1.2em;
@@ -221,9 +229,14 @@
 
 .more-details {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(239, 235, 237, 0.9);
     margin: 20px;
     border-radius: 8px;
+}
+.more-details:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    /* Add any other styles you want to change on hover */
 }
 
 .more-details h2 {
@@ -239,15 +252,23 @@
 .more-details ul li {
     margin-bottom: 10px;
 }
-
+footer {
+            background-color: #24262a;
+            color: white;
+            text-align: center;
+            padding: 1px 0;
+            position: fixed;
+            width: 100%;
+            bottom:0px;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1><center class="sliding-text">Hi there!am lennah,am a web developer!</center></h1>
+        <h1><center class="sliding-text">Hi there! i'm lennah,am a web developer!</center></h1>
         <!--Navbar items -->
         <div class="header-right"> 
-            <a href="index.html"active">HOME</a> 
+            <a href="index.html"class="active">HOME</a> 
             <a href="services.html">SERVICES</a>
             <a href="Project.html">PROJECTS</a>
             <a href="contact.html">CONTACTS</a>
@@ -341,6 +362,7 @@
             </li>
         </ul>
     </div>
+    
 </body>
 <script>
     let currentIndex = 0;
@@ -355,4 +377,7 @@
 
     setInterval(showNextImage, 5000); // Change image every 5 seconds
 </script>
+<footer>
+    &copy; 2024 lennah mwelu. All Rights Reserved.
+</footer>
 </html>
